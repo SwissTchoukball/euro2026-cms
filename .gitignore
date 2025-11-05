@@ -52,5 +52,9 @@ Icon
 # Environment specific secrets
 /site/config/env.php
 
+# Content
+/storage/content/*
+!/storage/content/index.html
+
 # Vendor
 vendor
