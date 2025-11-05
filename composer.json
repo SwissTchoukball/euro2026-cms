@@ -30,6 +30,9 @@
     },
     "optimize-autoloader": true
   },
+  "extra": {
+    "kirby-cms-path": false
+  },
   "scripts": {
     "start": [
       "Composer\\Config::disableProcessTimeout",
