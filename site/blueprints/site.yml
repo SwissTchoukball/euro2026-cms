@@ -1,5 +1,8 @@
 title: Site
 
+options:
+  preview: "{{ site.frontendUrl }}"
+
 sections:
   pages:
     type: pages

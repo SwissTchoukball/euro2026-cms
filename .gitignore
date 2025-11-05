@@ -51,6 +51,7 @@ Icon
 
 # Environment specific secrets
 /site/config/env.php
+.env
 
 # Content
 /storage/content/*
@@ -58,3 +59,6 @@ Icon
 
 # Vendor
 vendor
+
+# Plugins
+/site/plugins/*

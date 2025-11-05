@@ -1,5 +1,8 @@
 title: Default Page
 
+options:
+  preview: "{{ page.frontendUrl }}"
+
 columns:
   main:
     width: 2/3
@@ -18,4 +21,3 @@ columns:
         template: default
       files:
         type: files
-
