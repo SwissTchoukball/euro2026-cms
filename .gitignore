@@ -49,5 +49,8 @@ Icon
 
 /site/config/.license
 
+# Environment specific secrets
+/site/config/.env.php
+
 # Vendor
 vendor
