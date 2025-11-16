@@ -1,0 +1,14 @@
+name:
+  en: Youth competition fees
+  fr: Frais de compétition jeunesse
+  de: Jugend-Wettbewerbsgebühren
+icon: money
+preview: fields
+wysiwyg: true
+fields:
+  info:
+    type: info
+    text:
+      en: This block is used to display the Fees for the youth competitions.
+      fr: Ce bloc est utilisé pour afficher les frais pour les compétitions juniors.
+      de: Dieser Block wird verwendet, um die Gebühren für die Jugendwettbewerbe anzuzeigen.

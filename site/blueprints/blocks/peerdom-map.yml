@@ -1,0 +1,14 @@
+name:
+  en: Peerdom Map
+  fr: Carte Peerdom
+  de: Peerdom Karte
+icon: map
+preview: fields
+wysiwyg: true
+fields:
+  info:
+    type: info
+    text:
+      en: This block is used to display the Peerdom map of the organising committee.
+      fr: Ce bloc est utilisé pour afficher la carte Peerdom du comité organisateur.
+      de: Dieser Block wird verwendet, um die Peerdom-Karte des Organisationskomitees anzuzeigen.

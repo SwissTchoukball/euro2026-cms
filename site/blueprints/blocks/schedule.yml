@@ -1,0 +1,46 @@
+name:
+  en: Schedule
+  fr: Programme
+  de: Zeitplan
+icon: calendar
+preview: fields
+wysiwyg: true
+fields:
+  days:
+    label:
+      en: Days
+      fr: Jours
+      de: Tage
+    type: structure
+    fields:
+      day:
+        label:
+          en: Day
+          fr: Jour
+          de: Tag
+        type: date
+        display: DD.MM.YYYY
+      events:
+        label: Events
+        type: structure
+        fields:
+          time:
+            label:
+              en: Time
+              fr: Heures
+              de: Zeit
+            type: text
+            width: 1/2
+          time_clarification:
+            label:
+              en: Time clarification
+              fr: Précision concernant les heures
+              de: Präzisierung zu den Stunden
+            type: text
+            width: 1/2
+          description:
+            label:
+              en: Description
+              fr: Description
+              de: Beschreibung
+            type: text

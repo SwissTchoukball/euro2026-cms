@@ -1,0 +1,15 @@
+name:
+  en: Swisstopo Map
+  fr: Carte Swisstopo
+  de: Swisstopo Karte
+icon: map
+preview: fields
+wysiwyg: true
+fields:
+  center:
+    label: Center coordinates
+    type: text
+  zoom:
+    label: Zoom level
+    type: number
+    default: 8

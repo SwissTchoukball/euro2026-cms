@@ -3,6 +3,59 @@ title: Site
 options:
   preview: "{{ site.frontendUrl }}"
 
-sections:
-  pages:
-    type: pages
+# sections:
+#   pages:
+#     type: pages
+
+tabs:
+  dashboard:
+    label: Dashboard
+    icon: draft
+    columns:
+      - width: 1/2
+        sections:
+          pages:
+            type: pages
+            create: default
+            label:
+              en: Pages
+              fr: Pages
+              de: Seiten
+            image:
+              query: page.cover.toFile
+              cover: true
+              back: white
+
+  settings:
+    label:
+      en: Settings
+      fr: Paramètres
+      de: Einstellungen
+    icon: settings
+    columns:
+      - width: 1/2
+        sections:
+          content:
+            type: fields
+            fields:
+              footer:
+                label:
+                  en: Footer
+                  fr: Pied de page
+                  de: Fußzeile
+                type: pages
+                image:
+                  query: page.cover.toFile
+                  cover: true
+                  back: white
+
+      - width: 1/2
+        sections:
+          meta:
+            type: fields
+            fields:
+              cover:
+                extends: fields/cover
+                query: site.files.template("image")
+                translate: false
+              description: fields/description

@@ -1,0 +1,14 @@
+name:
+  en: Richtext
+  fr: Texte enrichi
+  de: Richtext
+icon: text
+preview: fields
+wysiwyg: true
+fields:
+  text:
+    label:
+      en: Text
+      fr: Texte
+      de: Text
+    type: textarea

@@ -1,0 +1,14 @@
+name:
+  en: Adults competition fees
+  fr: Frais de compétition adultes
+  de: Erwachsenen-Wettbewerbsgebühren
+icon: money
+preview: fields
+wysiwyg: true
+fields:
+  info:
+    type: info
+    text:
+      en: This block is used to display the Fees for the adults competitions.
+      fr: Ce bloc est utilisé pour afficher les frais pour les compétitions adultes.
+      de: Dieser Block wird verwendet, um die Gebühren für die Erwachsenenwettbewerbe anzuzeigen.

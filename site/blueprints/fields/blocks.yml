@@ -1,0 +1,45 @@
+label:
+  en: Blocks
+  fr: Blocs
+  de: Blöcke
+type: blocks
+fieldsets:
+  text:
+    label: Text
+    type: group
+    fieldsets:
+      - heading
+      - text
+      - richtext
+      - list
+      - quote
+      - line
+  media:
+    label:
+      en: Media
+      fr: Médias
+      de: Medien
+    type: group
+    fieldsets:
+      - image
+      - gallery
+      - video
+      - swisstopo-map
+      - peerdom-map
+  # code:
+  #   label: Code
+  #   type: group
+  #   fieldsets:
+  #     - code
+  #     - markdown
+  misc:
+    label:
+      en: Miscellaneous
+      fr: Divers
+      de: Verschiedenes
+    type: group
+    fieldsets:
+      - schedule
+      - deadlines
+      - competition-fees-youth
+      - competition-fees-adults

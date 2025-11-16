@@ -1,0 +1,34 @@
+name:
+  en: Deadlines
+  fr: Échéances
+  de: Fristen
+icon: calendar
+preview: fields
+wysiwyg: true
+fields:
+  deadlines:
+    label:
+      en: Deadlines
+      fr: Échéances
+      de: Fristen
+    type: structure
+    fields:
+      date:
+        label:
+          en: Date
+          fr: Date
+          de: Datum
+        type: date
+        display: DD.MM.YYYY
+      description:
+        label:
+          en: Description
+          fr: Description
+          de: Beschreibung
+        type: textarea
+      clarification:
+        label:
+          en: Clarification
+          fr: Précisions
+          de: Präzisierungen
+        type: textarea
