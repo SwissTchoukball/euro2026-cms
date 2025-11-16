@@ -1,6 +1,6 @@
 # Euro 2026 – CMS
 
-Frontend of the Euro 2026 website, using [Kirby](https://getkirby.com).
+CMS of the Euro 2026 website. Made with [Kirby](https://getkirby.com).
 
 ## Requirements
 
