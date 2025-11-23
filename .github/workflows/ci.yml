@@ -1,0 +1,26 @@
+name: CI/CD
+
+on: push
+
+
+jobs:
+  Deploy-to-production:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    environment:
+      name: Production
+      url: https://cms.euro2026.ch
+
+    steps:
+      - name: Deploy to production 🚀
+        uses: appleboy/ssh-action@v1.2.3
+        with:
+          host: ${{vars.INFOMANIAK_SSH_HOST}}
+          username: ${{ vars.INFOMANIAK_SSH_USERNAME }}
+          key: ${{ secrets.INFOMANIAK_SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.INFOMANIAK_SSH_PASSPHRASE }}
+          script: |
+            cd ~/sites/cms.euro2026.ch
+            git pull
+            composer install
