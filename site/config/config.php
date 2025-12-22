@@ -84,6 +84,9 @@ return [
             'allowHeaders' => env('KIRBY_HEADLESS_ALLOW_HEADERS', 'Accept, Content-Type, Authorization, X-Language'),
             'maxAge' => env('KIRBY_HEADLESS_MAX_AGE', '86400')
         ]
+    ],
+    'johannschopplich.deploy-trigger' => [
+        'deployUrl' => 'https://builder.statichost.eu/euro-2026',
     ]
 
 ];

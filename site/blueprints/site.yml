@@ -7,6 +7,10 @@ options:
 #   pages:
 #     type: pages
 
+buttons:
+  - deploy-trigger
+  - preview
+
 tabs:
   dashboard:
     label: Dashboard
