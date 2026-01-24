@@ -13,3 +13,6 @@ fields:
     label: Zoom level
     type: number
     default: 8
+  layers:
+    label: Layers
+    type: text
