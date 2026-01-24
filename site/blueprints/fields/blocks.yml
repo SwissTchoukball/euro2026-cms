@@ -43,3 +43,4 @@ fieldsets:
       - deadlines
       - competition-fees-youth
       - competition-fees-adults
+      - twint-donation-form

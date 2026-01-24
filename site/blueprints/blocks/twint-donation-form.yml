@@ -1,0 +1,11 @@
+name:
+  en: Twint donation form
+  fr: Formulaire de don Twint
+  de: Twint-Spendenformular
+icon: money
+preview: fields
+wysiwyg: true
+fields:
+  key:
+    label: Key
+    type: text
