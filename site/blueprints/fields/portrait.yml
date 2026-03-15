@@ -1,0 +1,14 @@
+label:
+  en: Portrait
+  fr: Portrait
+  de: Portrait
+type: files
+query: page.files.template(["portrait-photo"])
+uploads:
+  template: portrait-photo
+multiple: false
+translate: false
+help:
+  en: The portrait image of a person.
+  fr: Le portrait d'une personne.
+  de: Das Portrait einer Person.

@@ -1,0 +1,12 @@
+title:
+  en: Portrait photo
+  fr: Photo de portrait
+  de: Portraitfoto
+
+accept: image/jpeg, image/png, image/webp
+
+create:
+  width: 500
+  height: 500
+  crop: true
+  quality: 80

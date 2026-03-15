@@ -1,0 +1,25 @@
+title:
+  en: Team
+  fr: Équipe
+  de: Team
+
+icon: 🛡️
+
+options:
+  preview: "{{ page.frontendUrl }}"
+
+columns:
+  - width: 1/1
+    sections:
+      teamMembers:
+        label:
+          en: Team members
+          fr: Membres de l'équipe
+          de: Teammitglieder
+        type: pages
+        layout: cards
+        template: team-member
+        empty:
+          en: No team members yet
+          fr: Pas encore de membres de l'équipe
+          de: Noch keine Teammitglieder

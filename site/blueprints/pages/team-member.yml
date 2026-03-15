@@ -1,0 +1,76 @@
+title: Staff member
+icon: user
+
+status:
+  draft: true
+  listed: true
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      firstName:
+        label:
+          en: First name
+          fr: Prénom
+          de: Vorname
+        type: text
+        width: 1/2
+        translate: false
+      lastName:
+        label:
+          en: Last name
+          fr: Nom
+          de: Nachname
+        type: text
+        width: 1/2
+        translate: false
+      position:
+        label:
+          en: Position
+          fr: Position
+          de: Position
+        type: select
+        width: 1/2
+        translate: false
+        options:
+          right-winger:
+            en: Right winger
+            fr: Ailier droite
+            de: Rechter Flügelspieler
+          left-winger:
+            en: Left winger
+            fr: Ailier gauche
+            de: Linker Flügelspieler
+          winger:
+            en: Winger
+            fr: Ailier
+            de: Flügelspieler
+          frame-pivot:
+            en: Frame pivot
+            fr: Centre-cadre
+            de: Rahmenpivot
+          center:
+            en: Center
+            fr: Centre-centre
+            de: Mittelfeldspieler
+      role:
+        label:
+          en: Role
+          fr: Rôle
+          de: Rolle
+        type: text
+        width: 1/2
+      jerseyNumber:
+        label:
+          en: Jersey number
+          fr: Numéro de maillot
+          de: Trikotnummer
+        type: number
+        width: 1/2
+        translate: false
+
+  sidebar:
+    width: 1/3
+    fields:
+      cover: fields/portrait

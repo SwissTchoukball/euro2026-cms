@@ -1,0 +1,20 @@
+title:
+  en: Teams
+  fr: Équipes
+  de: Teams
+
+icon: 🛡️
+
+options:
+  preview: "{{ page.frontendUrl }}"
+
+columns:
+  - width: 1/1
+    sections:
+      teams:
+        type: pages
+        label:
+          en: Teams
+          fr: Équipes
+          de: Teams
+        create: team

@@ -29,6 +29,16 @@ tabs:
               query: page.cover.toFile
               cover: true
               back: white
+      - width: 1/2
+        sections:
+          teams:
+            type: pages
+            create: team
+            label:
+              en: Teams
+              fr: Équipes
+              de: Teams
+            parent: kirby.page("teams")
 
   settings:
     label:
