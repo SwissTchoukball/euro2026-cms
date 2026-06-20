@@ -54,6 +54,10 @@ columns:
             en: Center
             fr: Centre-centre
             de: Mittelfeldspieler
+          libero:
+            en: Libero
+            fr: Libéro
+            de: Libero
       role:
         label:
           en: Role
